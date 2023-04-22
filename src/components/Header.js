@@ -5,7 +5,7 @@ const Header = () => {
 <div>
     <header className='header p-3 position-absolute start-0 top-0 end-0 '>
         <div className='d-flex justify-content-between align-items-center'>
-            <a href="/" className='text-decoration-none text-white fs-2 fw-bold'>BookWorm</a>
+            <a href="/" className='text-decoration-none text-white fs-2 fw-bold'>TheBookWorm</a>
             <button className='navbar-toggler text-white' type="button" aria-controls='navbar' 
             data-bs-toggle="collapse" data-bs-target="#navbar" aria-expanded="false" >
                 <svg xmlns="http://www.w3.org/2000/svg" width="3rem" height="3rem" 
@@ -76,7 +76,7 @@ const Header = () => {
     </nav>
 
     <section className='hero'>
-        <img src="./Bookstore01.jpg" alt="hero image" className='hero-image'/>
+        <img src="./images/Bookstore01.jpg" alt="hero image" className='hero-image'/>
         <div className='layover'></div>
         <div className=' hero_content container-custom'>
           <div className='text-white'>
